@@ -1,0 +1,7 @@
+<% if !@article.nil? then %>
+ <%= @article.headline %> <br />
+    by <strong><%= @article.author %></strong><br />
+    <em><%= @article.description %></em><br />
+    <%= simple_format(@article.content) %>
+<% end %>
+

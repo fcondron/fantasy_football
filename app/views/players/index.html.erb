@@ -1,0 +1,24 @@
+<h1>All Players</h1>
+
+<%= paginate @players %> <br />
+
+
+<ul class="users">
+  <table>
+    <th><%= sortable "name" %></th>
+    <th><%= sortable "club" %></th>
+    <th><%= sortable "position" %></th>
+    <th><%= sortable "points" %></th>
+
+  <% @players.each do |player| %>
+    <tr>
+     <td><%= link_to player.name, player %></td>
+     <td><%= player.club %></td>
+     <td><%= player.position %></td>
+     <td><%= player.points %></td>
+    </tr>
+  <% end %>
+  </table>
+</ul>
+
+<%= paginate @players %>

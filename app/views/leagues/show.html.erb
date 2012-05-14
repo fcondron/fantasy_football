@@ -1,0 +1,17 @@
+<%= @league.name %>
+<% if !@league.teams.nil? %>
+<table>
+  <tr>
+    <td>Team Name</td>
+    <td>Team Manager</td>
+    <td>Team Points</td>
+  </tr>
+<% @league.teams.each do |team| %>
+            <tr>
+             <td><%= team.name %></td>
+             <td><%= team.user.username %></td>
+             <td><%= team.points %></td>
+            </tr>
+            <% end %>
+</table>
+<% end %>

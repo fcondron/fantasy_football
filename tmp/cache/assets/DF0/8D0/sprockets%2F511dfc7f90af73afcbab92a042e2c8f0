@@ -1,0 +1,9 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431426.359446:@value{	I"length:EFiþI"digest;
+F"%c7b991f34705da965a0fce04d509cb8dI"source;
+FI"þtinyMCE.addI18n('en.autosave',{
+restore_content: "Restore auto-saved content",
+warning_message: "If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?"
+});
+;
+FI"_version;
+F"%ee2e227d3e6979c4d2692cdc4cb62471

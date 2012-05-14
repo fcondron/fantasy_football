@@ -1,0 +1,110 @@
+body {
+    height:100%;
+    background: #1e5799;
+    background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+}
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    background:#ffffff;
+    width:100%;
+    max-width:1200px;
+    border:0px;
+    border-radius: 25px;
+}
+
+#header{
+    min-height:100px;
+    width:100%;
+    border:2px;
+}
+
+#leftnav{
+    margin-top: 30px;
+    min-height:300px;
+    float:left;
+    width:200px;
+}
+
+#content{
+    min-height:300px;
+    float:left;
+    width:700px;
+}
+
+#rightnav{
+    min-height:300px;
+    float:right;
+    width:20%;
+    min-width:300px;
+}
+
+#footer{
+    text-align:center;
+    clear:both;
+    padding-top:50px;
+}
+
+/*
+ *  text decoration
+ */
+
+a {
+    text-decoration: none;
+    color: #5C80B1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+ * left nav text decoration
+ */
+
+#leftnav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#leftnav ul li{
+    clear:both;
+}
+
+#leftnav ul li a{
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+
+#login{
+    width:100%;
+    border-style: solid;
+    border-radius:20px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Sign up button */
+
+a.signup_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: #fff;
+    background: #006400;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}

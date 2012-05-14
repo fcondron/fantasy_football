@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336586590.106335:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%b3537274107d425e23bb219962a4865cI"logical_path;
+FI"active_admin/orderable.png;
+TI"pathname;
+FI"o/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/images/active_admin/orderable.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-09T18:58:11+01:00;
+FI"length;
+FI"220;
+FI"digest;
+F"%133c459e13623657f81cb24b674d3ffbI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%= javascript_include_tag :application %>
+    <%= javascript_include_tag :defaults %>
+
+    <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %>
+    <script>        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));</script>
+  </head>
+  <body>
+    <div id="wrapper">
+        <div id="header">
+
+        </div>
+         <hr>
+        <div id="leftnav">
+          <%= render 'layouts/leftnav' %>
+        </div>
+
+        <div id="content">
+          <% if !notice.nil? %>
+            <p class="notice"><%= notice %></p><% end %>
+           <% if !alert.nil? %>
+            <p class="alert"><%= alert %></p><% end %>
+
+            <%= yield %>
+        </div>
+
+        <div id="footer">
+          <hr>
+          <%= render 'layouts/footer' %>
+        </div>
+    </div>
+  </body>
+</html>

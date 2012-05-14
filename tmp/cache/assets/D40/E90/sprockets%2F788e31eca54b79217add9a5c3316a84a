@@ -1,0 +1,8 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431426.890477:@value{	I"length:EFiQI"digest;
+F"%8c084db53ab7ff1bc15209a6fcea20d7I"source;
+FI"QtinyMCE.addI18n('en.example',{
+	desc : 'This is just a template button'
+});
+;
+FI"_version;
+F"%c4a32cbfb328666713d856148750cad4

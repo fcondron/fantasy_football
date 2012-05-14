@@ -1,0 +1,36 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336586539.4989665:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%96f0483510d23cd75449482126a34391I"logical_path;
+FI" active_admin/application.js;
+FI"pathname;
+FI"u/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/javascripts/active_admin/application.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-05-09T18:58:11+01:00;
+FI"	body;
+FI"È/* Active Admin JS */
+
+$(function(){
+  $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
+
+  $(".clear_filters_btn").click(function(){
+    window.location.search = "";
+    return false;
+  });
+});
+;
+FI"asset_paths;
+F[I"u/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/javascripts/active_admin/application.js;
+FI"dependency_paths;
+F[{I"	path;
+FI"u/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/javascripts/active_admin/application.js;
+FI"
+mtime;
+FIu:	Time1€'w¶è
+:@_zoneI"IST;
+T:nano_numis:nano_deni:submicro"7:offsetiI"hexdigest;
+F"%3b1f62303ac310e975e3118d22a26e17I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

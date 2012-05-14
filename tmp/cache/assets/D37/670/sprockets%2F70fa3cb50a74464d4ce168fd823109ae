@@ -1,0 +1,15 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336406105.21379:@value{	I"length:EFiÈI"digest;
+F"%5e9ad684b75f179d3a8927ed52646533I"source;
+FI"È/* Active Admin JS */
+
+$(function(){
+  $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
+
+  $(".clear_filters_btn").click(function(){
+    window.location.search = "";
+    return false;
+  });
+});
+;
+FI"_version;
+F"%764365efc2160d2f792dac8573c00015

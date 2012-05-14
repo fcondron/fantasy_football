@@ -1,0 +1,8 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431426.916478:@value{	I"length:EFiTI"digest;
+F"%ba18ee6c785fedfcadc85dd33c20fcdeI"source;
+FI"TtinyMCE.addI18n('en.example_dlg',{
+	title : 'This is just a example title'
+});
+;
+FI"_version;
+F"%e7efa373e5fcd256b6a9ac677b66bdde

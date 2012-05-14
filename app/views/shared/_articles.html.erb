@@ -1,0 +1,13 @@
+<% if !@articles.nil? then %>
+<% @articles.reverse.each do |article| %>
+    <h2><%= link_to "#{article.headline}", article_path(article) %></h2> <br />
+    by <strong><%= article.author %></strong> posted <%= time_ago_in_words(article.created_at) %> ago<br />
+    <em><%= simple_format(article.description) %></em><br />
+    <%= simple_format("#{article.content.first(800)}...") %>
+    <%= link_to 'Read More', article_path(article) %><br />
+<hr>
+
+<br />
+<br />
+<% end %>
+<% end %>

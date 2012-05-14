@@ -1,0 +1,22 @@
+
+  <table class="front" summary="For signed-in users">
+    <tr>
+      <td class="main">
+        <h1 class="teams"><%= @team.name %></h1>
+        <%= render 'shared/team_form' %>
+         <% @players.each do |player| %>
+             <li>
+             <%= link_to player.name, player_path(player) %>
+             <%= player.points %>
+             </li>
+            <% end %>
+
+
+      <td class="sidebar round">
+        <%= render 'shared/user_info' %>
+        <strong>Players: </strong><%= @players.count %><br />
+        <strong>Team Points:</strong> <%= @team.points %><br />
+        <strong>Table:</strong> <%= link_to "#{@league.first.name}", league_path(@league) %>
+      </td>
+    </tr>
+  </table>

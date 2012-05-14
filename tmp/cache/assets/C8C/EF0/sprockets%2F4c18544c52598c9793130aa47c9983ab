@@ -1,0 +1,34 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431430.5016801:@value{	I"length:EFiI"digest;
+F"%44ce332a50ab7a6f3ab744c20d9dc3e2I"source;
+FI"/**
+ * acronym.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+
+function init() {
+	SXE.initElementDialog('acronym');
+	if (SXE.currentAction == "update") {
+		SXE.showRemoveButton();
+	}
+}
+
+function insertAcronym() {
+	SXE.insertElement('acronym');
+	tinyMCEPopup.close();
+}
+
+function removeAcronym() {
+	SXE.removeElement('acronym');
+	tinyMCEPopup.close();
+}
+
+tinyMCEPopup.onInit.add(init);
+;
+FI"_version;
+F"%06fc64ba3741c13fc9b178ff9b206fc1

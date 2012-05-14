@@ -1,0 +1,11 @@
+<h1><%= @player.name %></h1>
+<table>
+<tr><td><strong>Name: </strong></td><td><%= @player.name %></td></tr>
+<tr><td><strong>Points: </strong></td><td><%= @player.points %></td></tr>
+<tr><td><strong>Position: </strong></td><td><%= @player.position %></td></tr>
+<tr><td><strong>Club: </strong></td><td><%= @player.club %></td></tr>
+<tr><td><strong>Goals: </strong></td><td><%= if @player.goals.nil? then 0 else @player.goals end %></td></tr>
+<tr><td><strong>Assists: </strong></td><td><%= @player.assists %></td></tr>
+<tr><td><strong>Yellow Cards: </strong></td><td><%= @player.yellow_cards %></td></tr>
+<tr><td><strong>Red Cards: </strong></td><td><%= @player.red_cards %></td></tr>
+</table>

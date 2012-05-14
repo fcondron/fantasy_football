@@ -1,0 +1,6 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431431.901762:@value{	I"length:EFi\I"digest;
+F"%989a1d79649a7a5f098dc937aaf72e4bI"source;
+FI"\tinyMCE.addI18n('en.simple',{"cleanup_desc":"Cleanup Messy Code","redo_desc":"Redo (Ctrl+Y)","undo_desc":"Undo (Ctrl+Z)","numlist_desc":"Insert/Remove Numbered List","bullist_desc":"Insert/Remove Bulleted List","striketrough_desc":"Strikethrough","underline_desc":"Underline (Ctrl+U)","italic_desc":"Italic (Ctrl+I)","bold_desc":"Bold (Ctrl+B)"});
+;
+FI"_version;
+F"%cfbd04d38157e87ed521ad61a68388f2

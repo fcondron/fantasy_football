@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336586581.5961692:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%3acff34af15fab0730a0d770aef5eeb5I"logical_path;
+FI"'active_admin/nested_menu_arrow.gif;
+TI"pathname;
+FI"w/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/images/active_admin/nested_menu_arrow.gif;
+FI"content_type;
+FI"image/gif;
+FI"
+mtime;
+FI"2012-05-09T18:58:11+01:00;
+FI"length;
+FI"70;
+FI"digest;
+F"%85c0e9a0cf40a5ee4ce5aca8ee79c49dI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

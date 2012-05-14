@@ -1,0 +1,34 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431430.476682:@value{	I"length:EFiI"digest;
+F"%f7189cc24d882888ae9c07c981cb2f64I"source;
+FI"/**
+ * abbr.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+
+function init() {
+	SXE.initElementDialog('abbr');
+	if (SXE.currentAction == "update") {
+		SXE.showRemoveButton();
+	}
+}
+
+function insertAbbr() {
+	SXE.insertElement('abbr');
+	tinyMCEPopup.close();
+}
+
+function removeAbbr() {
+	SXE.removeElement('abbr');
+	tinyMCEPopup.close();
+}
+
+tinyMCEPopup.onInit.add(init);
+;
+FI"_version;
+F"%2cb4f4448794183f953cec684ad853ab

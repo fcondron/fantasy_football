@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336586590.119448:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%bd7b43edd60af7c5622010745dda5973I"logical_path;
+FI"6active_admin/datepicker/datepicker-input-icon.png;
+TI"pathname;
+FI"Å/home/fergal/.rvm/gems/ruby-1.9.3-p194/gems/activeadmin-0.4.0/app/assets/images/active_admin/datepicker/datepicker-input-icon.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-05-09T18:58:11+01:00;
+FI"length;
+FI"	1535;
+FI"digest;
+F"%de81f5ac6865f0b215b877c6ade6b594I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

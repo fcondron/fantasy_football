@@ -1,0 +1,12 @@
+<tr>
+
+  </td>
+  <% user = team.user rescue User.find(team.user_id) %>
+<% if user == current_user %>
+    <td>
+      <%= link_to "delete", team, :method => :delete,
+                                       :confirm => "You sure?",
+                                       :title => team.name %>
+    </td>
+  <% end %>
+</tr>

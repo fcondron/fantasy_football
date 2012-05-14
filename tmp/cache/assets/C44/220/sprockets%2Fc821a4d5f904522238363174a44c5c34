@@ -1,0 +1,6 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336431426.956481:@value{	I"length:EFi¤I"digest;
+F"%cad99510bba5d0bba0d121aa0056216bI"source;
+FI"¤(function(){tinymce.create("tinymce.plugins.ExampleDependencyPlugin",{init:function(a,b){},getInfo:function(){return{longname:"Example Dependency plugin",author:"Some author",authorurl:"http://tinymce.moxiecode.com",infourl:"http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/example_dependency",version:"1.0"}}});tinymce.PluginManager.add("example_dependency",tinymce.plugins.ExampleDependencyPlugin,["example"])})();
+;
+FI"_version;
+F"%759a2cbab117f3780b0e7d38be8cd84c

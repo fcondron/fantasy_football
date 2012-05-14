@@ -1,0 +1,8 @@
+  <h1>FANTASY FOOTBALL</h1>
+  <%= render 'shared/articles' %>
+  <%= link_to "See more Articles", articles_path %>
+
+  <br />
+   <% if !signed_in? %>
+  <%= link_to "Sign up now!", new_user_registration_path, :class => "signup_button round" %>
+<% end %>

@@ -1,0 +1,20 @@
+
+  <nav class="round">
+    <ul>
+        <li> <%= if !current_admin_user && signed_in? then "Welcome #{current_user.username}" end %></li>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Forums", forums_path %></li>
+        <li><%= link_to "Articles", main_app.articles_path %></li>
+        <li><%= link_to "Players", main_app.players_path %></li>
+       <% if !current_admin_user && signed_in? %>
+        <li><%= link_to "Users", main_app.users_path %></li>
+        <li><%=link_to "Profile", main_app.user_path(current_user) %></li>
+        <li><%= link_to "My Teams", main_app.teams_path %></li>
+        <li><%= link_to "New Team", main_app.new_team_path %></li>
+        <li><%= link_to "Settings", main_app.edit_user_registration_path %></li>
+        <li><%= link_to "Sign out", main_app.destroy_user_session_path, :method => :delete %>
+      <% else %>
+           <%= link_to "Sign up", main_app.new_user_registration_path %> or <%= link_to "sign in", main_app.new_user_session_path %>
+      <% end %>
+    </ul>
+  </nav>
